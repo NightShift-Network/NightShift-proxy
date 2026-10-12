@@ -44,7 +44,7 @@ Run the platform-specific command printed by `pm2 startup` (it may require `sudo
 
 ## Using NightShift
 
-Open the NightShift page in your browser, enter a website address or search term, and press Enter. Use the sidebar to open Games or quick cloaking. Proxy preferences and bookmarks are stored in that browser.
+Open the NightShift page in your browser, enter a website address or search term, and press Enter. Use the sidebar to open Interactive Entertainment or quick cloaking. Proxy preferences and bookmarks are stored in that browser.
 
 ## Run with Docker Compose
 
@@ -62,4 +62,4 @@ For a Node.js install, pull the latest proxy repository changes, run `npm instal
 
 ## Source code
 
-Browse the readable code, report issues, or contribute at [NightShift-source](https://github.com/NightShift-Network/NightShift-source). The frontend in `public/` is generated from that repository. This release was built from source commit `90f9ca300d1d7ae51e47c7a7614c0f1f658d28af`.
+Browse the readable code, report issues, or contribute at [NightShift-source](https://github.com/NightShift-Network/NightShift-source). The frontend in `public/` is generated from that repository. This release was built from source commit `d3bb8876ffe520c9a06516fd638a7369381453f8`.
