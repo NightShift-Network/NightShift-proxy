@@ -62,4 +62,4 @@ For a Node.js install, pull the latest proxy repository changes, run `npm instal
 
 ## Source code
 
-Browse the readable code, report issues, or contribute at [NightShift-source](https://github.com/NightShift-Network/NightShift-source). The frontend in `public/` is generated from that repository. This release was built from source commit `a11725d4ae5b44482b8b07b46651779250813306`.
+Browse the readable code, report issues, or contribute at [NightShift-source](https://github.com/NightShift-Network/NightShift-source). The frontend in `public/` is generated from that repository. This release was built from source commit `f75f398275b32d1006ad7d4ce122f8671b7ad98d`.
