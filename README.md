@@ -9,8 +9,15 @@ For a Debian or Ubuntu VPS with a public domain pointed at its IP address, allow
 ```sh
 git clone https://github.com/NightShift-Network/NightShift-proxy.git
 cd NightShift-proxy
+
+# Run interactively:
+sudo ./setup.sh
+
+# Or supply domain(s) and email directly:
 sudo ./setup.sh --domain proxy.example.com --email you@example.com
 ```
+
+Multiple domains can be specified with repeated `--domain` flags or comma-separated (e.g. `--domain "proxy.example.com, www.proxy.example.com"`).
 
 The setup script installs Docker, Nginx, and Certbot as needed, starts NightShift, configures HTTPS, and enables certificate renewal. Replace the example domain and email with your own values.
 
@@ -62,4 +69,4 @@ For a Node.js install, pull the latest proxy repository changes, run `npm instal
 
 ## Source code
 
-Browse the readable code, report issues, or contribute at [NightShift-source](https://github.com/NightShift-Network/NightShift-source). The frontend in `public/` is generated from that repository. This release was built from source commit `6cee086aace840e9ed5d676d1e73ed544ebf395f`.
+Browse the readable code, report issues, or contribute at [NightShift-source](https://github.com/NightShift-Network/NightShift-source). The frontend in `public/` is generated from that repository. This release was built from source commit `7ff47377242d073848dc5120ea85ef256e917fb7`.
