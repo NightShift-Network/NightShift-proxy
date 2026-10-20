@@ -17,7 +17,13 @@ sudo ./setup.sh
 sudo ./setup.sh --domain proxy.example.com --email you@example.com
 ```
 
-Multiple domains can be specified with repeated `--domain` flags or comma-separated (e.g. `--domain "proxy.example.com, www.proxy.example.com"`).
+List every hostname in one command. The setup script requests a single ACME certificate covering all hostnames and configures all of them in Nginx. Hostnames can be space-separated, comma-separated, or supplied with repeated --domain flags:
+
+```sh
+sudo ./setup.sh --domain proxy.example.com www.example.com --email you@example.com
+```
+
+Every hostname must resolve to this VPS, and inbound ports 80 and 443 must be open. Setup verifies HTTPS for each hostname before reporting success.
 
 The setup script installs Docker, Nginx, and Certbot as needed, starts NightShift, configures HTTPS, and enables certificate renewal. Replace the example domain and email with your own values.
 
@@ -69,4 +75,4 @@ For a Node.js install, pull the latest proxy repository changes, run `npm instal
 
 ## Source code
 
-Browse the readable code, report issues, or contribute at [NightShift-source](https://github.com/NightShift-Network/NightShift-source). The frontend in `public/` is generated from that repository. This release was built from source commit `aa233d76cd5617dfdfb97737b8c876533089a698`.
+Browse the readable code, report issues, or contribute at [NightShift-source](https://github.com/NightShift-Network/NightShift-source). The frontend in `public/` is generated from that repository. This release was built from source commit `d479d6838ac327e0592dcf425a6fbf3faeafb42d`.
