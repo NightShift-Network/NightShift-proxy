@@ -57,7 +57,20 @@ Run the platform-specific command printed by `pm2 startup` (it may require `sudo
 
 ## Using NightShift
 
-Open the NightShift page in your browser, enter a website address or search term, and press Enter. Use the sidebar to open Play or quick cloaking. Proxy preferences and bookmarks are stored in that browser.
+Open the NightShift page in your browser, enter a website address or search term, and press Enter. The Browser, Play, and Cloak sections are available from the sidebar. Proxy preferences and bookmarks are stored in that browser.
+
+## Features
+
+- Multi-tab browsing with internal pages for New Tab, Settings, History, Bookmarks, Shortcuts, Diagnostics, About, Privacy, and Help
+- Quick switcher (`Ctrl+K` / `⌘K`) for open tabs, bookmarks, browsing history, and internal pages
+- Keyboard shortcuts including `Ctrl+Shift+T` to open a tab and `Ctrl+W` or `Ctrl+Alt+W` to close one
+- Full-screen browsing with a compact address bar and Escape exit
+- Editable homepage, configurable quick-access shortcuts, and a bookmarks bar that appears when bookmarks are saved
+- Search choices for DuckDuckGo, Brave, Startpage, Palmtree Search, and custom URL templates
+- Epoxy and libcurl transport choices
+- Optional `about:blank` and blob-tab cloaking, with configurable tab title, icon, and page shown behind the cloaked tab
+- Interactive Entertainment catalog and player powered by LuminSDK, with an option to route selected experiences through the browser
+- Browser-local preferences and import/export for search, transport, quick access, cloaking, and bookmarks
 
 ## Run with Docker Compose
 
@@ -75,4 +88,4 @@ For a Node.js install, pull the latest proxy repository changes, run `npm instal
 
 ## Source code
 
-Browse the readable code, report issues, or contribute at [NightShift-source](https://github.com/NightShift-Network/NightShift-source). The frontend in `public/` is generated from that repository. This release was built from source commit `aa675d2b409c9b5d5154e15046d094fb035dc97a`.
+Browse the readable code, report issues, or contribute at [NightShift-source](https://github.com/NightShift-Network/NightShift-source). The frontend in `public/` is generated from that repository. This release was built from source commit `a40759a0f333cdacb3b0900d902b75369dd1c529`.
